@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/bhargav_id_room"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/bhargav_nurse_id"
+            android:text="Nurse ID # 2"
+            android:layout_weight="1"
+            android:layout_width="0px"
+            android:fontFamily="@font/leaguespartan"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/bhargav_room_no"
+            android:gravity="end"
+            android:text="Room: 305A"
+            android:layout_weight="1"
+            android:fontFamily="@font/leaguespartan"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:id="@+id/bhargav_name_epartment"
+        android:weightSum="2"
+        android:layout_below="@+id/bhargav_id_room"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/bhargav_patient_name"
+            android:text="Nurse ID # 2"
+            android:layout_weight="1"
+            android:layout_width="0px"
+            android:fontFamily="@font/leaguespartan"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/bhargav_department_name"
+            android:gravity="center_horizontal"
+            android:text="Room: 305A"
+            android:layout_weight="1"
+            android:background="@color/buttonColor"
+            android:fontFamily="@font/leaguespartan"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</RelativeLayout>

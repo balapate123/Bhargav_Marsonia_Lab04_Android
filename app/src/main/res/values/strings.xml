@@ -1,0 +1,39 @@
+
+<resources>
+    <string name="app_name">BhargavLab4</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="patient_first_name">Enter first name</string>
+    <string name="patient_last_name">Enter last name</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="department_lable">Select Department</string>
+    <string name="add_patient">Add Patient</string>
+    <string name="search_by_patient_id">Search by Patient ID</string>
+    <string name="filter_department">Filter by department</string>
+    <string name="enter_patient_id">Enter patient ID</string>
+    <string name="blood_pressure_negative">Negative</string>
+    <string name="blood_pressure_positive">Positive</string>
+    <string name="cholesterol">Cholesterol</string>
+    <string name="test_date">Test Date</string>
+    <string name="date">10/19/2020</string>
+    <string name="enter_temprature">Enter Temprature</string>
+    <string name="temprature">Temprature</string>
+    <string name="add_test">Add Test</string>
+    <string-array name="departmentList">
+        <item>"Cardiology"</item>
+        <item>"Urology"</item>
+        <item>"Neurology"</item>
+        <item>"Orthology"</item>
+    </string-array>
+    <string name="title_activity_jaskaran_main">JaskaranActivityMain</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>
